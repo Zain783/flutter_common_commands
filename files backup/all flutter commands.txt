@@ -1,0 +1,13 @@
+this is a command for build just apk
+1.flutter build apk
+this is an other command for build small size apk
+2.flutter build apk --split-per-abi
+for clean catcher
+3.flutter clean
+this is another command for build very small size apk
+4.flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+this command help to open developer mode in your pc 
+5.start ms-settings:developers
+this thing help to solve kotlin version problem in flutter
+Updating to a newer kotlin version in build.gradle seems to solve the issue for me (at android/build.gradle:2)
+6.ext.kotlin_version = '1.4.32'
